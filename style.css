@@ -1,0 +1,63 @@
+body {
+    background: #f8f9fa;
+  }
+
+.my-row {
+  background: white;
+}
+
+.newhr {
+  border: 10px solid #f8f9fa;
+  border-radius: 5px;
+}
+
+/* .scatter1 {
+  width: 100px
+  height="auto"
+} */
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float:right
+}
+
+.scatter1 {
+  width: 120%;
+}
+
+.wrap-text {
+  flex-wrap: wrap;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#figure {
+  position: relative;
+}
+
+#bio-name {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
