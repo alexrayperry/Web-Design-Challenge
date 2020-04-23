@@ -2,7 +2,7 @@ body {
     background: #f8f9fa;
   }
 
-.my-row {
+.my-col {
   background: white;
 }
 
@@ -11,10 +11,6 @@ body {
   border-radius: 5px;
 }
 
-/* .scatter1 {
-  width: 100px
-  height="auto"
-} */
 
 .float-left {
   float: left;
@@ -32,32 +28,20 @@ body {
   flex-wrap: wrap;
 }
 
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
+}
+.ml-1 {
+  margin-left: ($spacer * .25) !important;
 }
 
-#figure {
-  position: relative;
+footer {
+  background: #222;
+  padding:33px
 }
 
-#bio-name {
-  position: absolute;
-  top: 150px;
-  left: 30px;
+.comparison {
+  width: 80%;
 }
 
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
+.plot-img {
+  width: 50%;
 }
